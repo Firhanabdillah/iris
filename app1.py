@@ -10,9 +10,9 @@ st.image(image, use_column_width=True, caption='jpg')
 st.write("Silakan masukkan nilai, untuk mendapatkan prediksi Jenis Bunga Iris")
 
 SepalLengthCm = st.slider('Panjang Sepal Cm:', 2.0, 6.0)
-SepalWidthCm = st.slider('Lebar Sepal Cm', 0.0, 5.0)
-PetalLengthCm = st.slider('Panjang kelopak Cm',0.0, 3.0)
-PetalWidthCm = st.slider('Lebar Kelopak Cm:', 0.0, 2.0)
+SepalWidthCm = st.slider('Lebar Sepal Cm', 0.0, 6.0)
+PetalLengthCm = st.slider('Panjang kelopak Cm',0.0, 6.0)
+PetalWidthCm = st.slider('Lebar Kelopak Cm:', 0.0, 6.0)
 data = {'Panjang Sepal Cm:': SepalLengthCm,
         'Lebar Sepal Cm': SepalWidthCm,
         'Panjang kelopak Cm': PetalLengthCm,
